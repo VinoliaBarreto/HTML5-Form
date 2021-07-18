@@ -1,0 +1,35 @@
+
+.principal{
+    margin: auto;
+    margin-top: 25px;
+    width: 800px;
+    height: 600px;
+}
+.missing{
+    background: #F8D7DA;
+    border: pink;
+    border-radius: 2px;
+    text-decoration-color: palevioletred; 
+    font-weight: 600;
+    font-size: 14px;
+}
+.field{
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+.payment{
+    background: pink;
+    font-weight: bold;
+    font-size: 20px;
+}
+.boton{
+    border-radius: 3px;
+}
+.foot{
+    margin: 5px;
+    background: #F8F9FA;
+}
+.pie{
+    font-size: 10px;
+}
