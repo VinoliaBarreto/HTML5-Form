@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col d-block p-2">
                     <div class="missing border border-1 border-danger text-danger">
-                        <p class="field"> Some fields are missing</p>
+                        <p class="field"> Some fields are missing!</p>
                     </div>
                 </div>
             </div>
@@ -74,18 +74,20 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                        <label for="inputCity" class="form-label">City</label>
+                        <span for="inputCity" class="form-label">City</span>
                         <input type="text" class="form-control" id="inputCity" required>
                     </div>
                 <div class="col-md-4">
-                        <label for="inputState" class="form-label">State</label>
+                        <span for="inputState" class="form-label">State</span>
                         <select id="inputState" class="form-select text-secondary" required>
                         <option selected>Pick a state</option>
                         <option>New York</option>
+                        <option>Madrid</option>
+                        <option>Rome</option>
                         </select>
                     </div>
                 <div class="col-md-2">
-                        <label for="inputZip" class="form-label">Post Code</label required>
+                        <span for="inputZip" class="form-label">Post Code</span required>
                         <input type="text" class="form-control" id="inputZip">
                     </div>
              </div>   
@@ -103,19 +105,19 @@
                     <div class="d-flex bg-secondary boton">
                         <div class="form-check form-check-inline ">
                             <input class="form-check-input" type="radio" name="radioFilter" id="filter-none" checked>
-                            <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-mastercard"></i></label>
+                            <span class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-mastercard"></i></span>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="radioFilter" id="filter-1">
-                            <label class="form-check-label text-nowrap" for="inlineRadio2"><i class="fab fa-cc-visa"></i></label>
+                            <span class="form-check-label text-nowrap" for="inlineRadio2"><i class="fab fa-cc-visa"></i></span>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="radioFilter" id="filter-2">
-                            <label class="form-check-label text-nowrap" for="inlineRadio2"><i class="fab fa-cc-diners-club"></i></label>
+                            <span class="form-check-label text-nowrap" for="inlineRadio2"><i class="fab fa-cc-diners-club"></i></span>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="radioFilter" id="filter-2">
-                            <label class="form-check-label text-nowrap" for="inlineRadio2"><i class="fab fa-cc-amex"></i></label>
+                            <span class="form-check-label text-nowrap" for="inlineRadio2"><i class="fab fa-cc-amex"></i></span>
                         </div>
                     </div>
                 </div> 
@@ -124,13 +126,10 @@
                 <div class="col-6">
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea"></label>
+                        <span for="floatingTextarea"></span>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col ">
-                    </div>
-                </div>
+                
             </div>
             <div class="row">
                     <div class="col-6 ">
